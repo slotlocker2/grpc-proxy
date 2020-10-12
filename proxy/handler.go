@@ -6,7 +6,7 @@ package proxy
 import (
 	"io"
 
-	"github.com/dgraph-io/grpc-proxy/proxy/codec"
+	"github.com/slotlocker2/grpc-proxy/proxy/codec"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"

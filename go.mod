@@ -1,4 +1,4 @@
-module github.com/dgraph-io/grpc-proxy
+module github.com/slotlocker2/grpc-proxy
 
 go 1.12
 

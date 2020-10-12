@@ -11,9 +11,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dgraph-io/grpc-proxy/proxy"
-	codec "github.com/dgraph-io/grpc-proxy/proxy/codec"
-	pb "github.com/dgraph-io/grpc-proxy/testservice"
+	"github.com/slotlocker2/grpc-proxy/proxy"
+	codec "github.com/slotlocker2/grpc-proxy/proxy/codec"
+	pb "github.com/slotlocker2/grpc-proxy/testservice"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"

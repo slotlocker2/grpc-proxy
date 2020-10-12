@@ -6,8 +6,8 @@ package proxy_test
 import (
 	"strings"
 
-	"github.com/dgraph-io/grpc-proxy/proxy"
-	codec "github.com/dgraph-io/grpc-proxy/proxy/codec"
+	"github.com/slotlocker2/grpc-proxy/proxy"
+	codec "github.com/slotlocker2/grpc-proxy/proxy/codec"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
@@ -24,7 +24,7 @@ func ExampleRegisterService() {
 	server := grpc.NewServer()
 	// Register a TestService with 4 of its methods explicitly.
 	proxy.RegisterService(server, director,
-		"dgraph-io.testproto.TestService",
+		"slotlocker2.testproto.TestService",
 		"PingEmpty", "Ping", "PingError", "PingList")
 }
 
